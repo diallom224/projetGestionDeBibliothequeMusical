@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema version="1.0"
+        xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:BM="http://www.univ-grenoble-alpes.fr/l3miage/BibliothequeMusical"
+        targetNamespace="http://www.univ-grenoble-alpes.fr/l3miage/BibliothequeMusical"
+        elementFormDefault="qualified">
+
+    <!-- Élément racine -->
+    <!-- MODIFIÉ : Changé type="MB:BibliothequeMusical" en type="BM:BibliothequeMusicalType" -->
+    <!-- MODIFIÉ : Le préfixe doit être BM (pas MB) et le type doit avoir un nom différent de l'élément -->
+    <element name="BibliothequeMusical" type="BM:BibliothequeMusicalType">
+        <!-- Pour rendre l'identifiant d'un album unique -->
+        <!-- MODIFIÉ : Changé xpath="MB:album" en xpath="BM:album" pour correspondre au préfixe déclaré -->
+        <key name="AlbumIDkey">
+            <selector xpath="BM:album"/>
+            <field xpath="@id"/>
+        </key>
+    </element>
+
+    <!-- Type complexe pour la bibliothèque -->
+    <!-- MODIFIÉ : Supprimé l'attribut type="MB:BibliothequeMusical" qui était incorrect -->
+    <!-- MODIFIÉ : Changé le nom en BibliothequeMusicalType et corrigé >> en > -->
+    <complexType name="BibliothequeMusicalType">
+        <sequence>
+            <element name="album" type="BM:albumType" minOccurs="1" maxOccurs="unbounded"/>
+        </sequence>
+    </complexType>
+
+    <!-- Type complexe pour un album -->
+    <!-- MODIFIÉ : Supprimé l'attribut type="BM:album" qui était incorrect dans la déclaration -->
+    <!-- MODIFIÉ : Changé le nom en albumType pour éviter les conflits -->
+    <complexType name="albumType">
+        <sequence>
+            <element name="titre" type="string"/>
+            <element name="artiste" type="string"/>
+            <!-- MODIFIÉ : Changé type="Typegenre" en type="BM:TypeGenre" avec le préfixe correct -->
+            <element name="genre" type="BM:TypeGenre"/>
+            <!-- MODIFIÉ : Changé type="listeChansons" en type="BM:listeChansonsType" -->
+            <element name="chansons" type="BM:listeChansonsType"/>
+        </sequence>
+        <attribute name="id" type="integer" use="required"/>
+    </complexType>
+
+    <!-- Type simple pour le genre musical -->
+    <simpleType name="TypeGenre">
+        <restriction base="string">
+            <enumeration value="rap"/>
+            <enumeration value="rock"/>
+            <enumeration value="pop"/>
+            <enumeration value="jazz"/>
+            <enumeration value="classique"/>
+        </restriction>
+    </simpleType>
+
+    <!-- Type complexe pour la liste de chansons -->
+    <!-- MODIFIÉ : Supprimé l'attribut type="BM:listeChansons" qui était incorrect -->
+    <!-- MODIFIÉ : Changé "listeChansons" en "chanson" car c'était une erreur (élément répété avec mauvais nom) -->
+    <!-- MODIFIÉ : Ajouté le type BM:chansonType pour définir la structure d'une chanson -->
+    <complexType name="listeChansonsType">
+        <sequence>
+            <element name="chanson" type="BM:chansonType" minOccurs="1" maxOccurs="unbounded"/>
+        </sequence>
+    </complexType>
+
+    <!-- Type complexe pour une chanson -->
+    <!-- AJOUTÉ : Ce type était complètement manquant dans votre schéma original -->
+    <complexType name="chansonType">
+        <sequence>
+            <element name="titre" type="string"/>
+            <element name="duree" type="string"/>
+        </sequence>
+    </complexType>
+
+</schema>
