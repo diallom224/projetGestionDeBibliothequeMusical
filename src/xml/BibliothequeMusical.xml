@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BibliothequeMusical xmlns="http://www.univ-grenoble-alpes.fr/l3miage/BibliothequeMusical"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:schemaLocation="http://www.univ-grenoble-alpes.fr/l3miage/BibliothequeMusical ../xsd/BibliothequeMusical.xsd">
+
+    <!-- Premier album -->
+    <album id="01">
+        <titre>temps mort</titre>
+        <artiste>Booba</artiste>
+        <genre>rap</genre>
+        <chansons>
+            <chanson>
+                <titre>temps mort</titre>
+                <dateSortie>2002-01-22</dateSortie>
+            </chanson>
+            <chanson>
+                <titre>Ma definition </titre>
+                <dateSortie>2002-01-22</dateSortie>
+            </chanson>
+        </chansons>
+    </album>
+    
+    <album id="02">
+        <titre>Destin</titre>
+        <artiste>Ninho</artiste>
+        <genre>rap</genre>
+        <chansons>
+            <chanson>
+                <titre>Sans peine</titre>
+                <dateSortie>2018-02-28</dateSortie>
+            </chanson>
+            <chanson>
+                <titre>La vie quon mene </titre>
+                <dateSortie>2018-02-28</dateSortie>
+            </chanson>
+            <chanson>
+                <titre>jeune lossa</titre>
+                <dateSortie>2018-02-28</dateSortie>
+            </chanson>
+        </chansons>
+    </album>
+    
+
+</BibliothequeMusical>
