@@ -5,12 +5,12 @@
 
     <!-- Premier album -->
     <album id="01">
-        <titre>temps mort</titre>
+        <titre>Temps mort</titre>
         <artiste>Booba</artiste>
-        <genre>rap</genre>
+        <genre>Rap</genre>
         <chansons>
             <chanson>
-                <titre>temps mort</titre>
+                <titre>Temps mort</titre>
                 <dateSortie>2002-01-22</dateSortie>
             </chanson>
             <chanson>
@@ -21,9 +21,29 @@
     </album>
     
     <album id="02">
+        <titre>M.I.L.S 4</titre>
+        <artiste>Ninho</artiste>
+        <genre>Rap</genre>
+        <chansons>
+            <chanson>
+                <titre>Sourire</titre>
+                <dateSortie>2016-10-28</dateSortie>
+            </chanson>
+            <chanson>
+                <titre>Pour Nous </titre>
+                <dateSortie>2016-11-21</dateSortie>
+            </chanson>
+            <chanson>
+                <titre>Monotonie</titre>
+                <dateSortie>2018-02-28</dateSortie>
+            </chanson>
+        </chansons>
+    </album>
+
+    <album id="03">
         <titre>Destin</titre>
         <artiste>Ninho</artiste>
-        <genre>rap</genre>
+        <genre>Rap</genre>
         <chansons>
             <chanson>
                 <titre>Sans peine</titre>
@@ -36,6 +56,10 @@
             <chanson>
                 <titre>jeune lossa</titre>
                 <dateSortie>2018-02-28</dateSortie>
+            </chanson>
+            <chanson>
+                <titre>Amour moneyé</titre>
+                <dateSortie>2018-03-23</dateSortie>
             </chanson>
         </chansons>
     </album>

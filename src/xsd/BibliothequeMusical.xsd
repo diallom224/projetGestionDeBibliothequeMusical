@@ -35,11 +35,11 @@
     <!-- Type simple pour le genre musical -->
     <simpleType name="TypeGenre">
         <restriction base="string">
-            <enumeration value="rap"/>
-            <enumeration value="rock"/>
-            <enumeration value="pop"/>
-            <enumeration value="jazz"/>
-            <enumeration value="classique"/>
+            <enumeration value="Rap"/>
+            <enumeration value="Rock"/>
+            <enumeration value="Pop"/>
+            <enumeration value="Jazz"/>
+            <enumeration value="Classique"/>
         </restriction>
     </simpleType>
 

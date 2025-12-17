@@ -1,0 +1,15 @@
+/home/diallo/Documents/TPs_l3_S5/TP_XML/BibliothequeMusicale/src/BibliothequeMusicale/bin/Debug/net9.0/BibliothequeMusicale
+/home/diallo/Documents/TPs_l3_S5/TP_XML/BibliothequeMusicale/src/BibliothequeMusicale/bin/Debug/net9.0/BibliothequeMusicale.deps.json
+/home/diallo/Documents/TPs_l3_S5/TP_XML/BibliothequeMusicale/src/BibliothequeMusicale/bin/Debug/net9.0/BibliothequeMusicale.runtimeconfig.json
+/home/diallo/Documents/TPs_l3_S5/TP_XML/BibliothequeMusicale/src/BibliothequeMusicale/bin/Debug/net9.0/BibliothequeMusicale.dll
+/home/diallo/Documents/TPs_l3_S5/TP_XML/BibliothequeMusicale/src/BibliothequeMusicale/bin/Debug/net9.0/BibliothequeMusicale.pdb
+/home/diallo/Documents/TPs_l3_S5/TP_XML/BibliothequeMusicale/src/BibliothequeMusicale/obj/Debug/net9.0/BibliothequeMusicale.GeneratedMSBuildEditorConfig.editorconfig
+/home/diallo/Documents/TPs_l3_S5/TP_XML/BibliothequeMusicale/src/BibliothequeMusicale/obj/Debug/net9.0/BibliothequeMusicale.AssemblyInfoInputs.cache
+/home/diallo/Documents/TPs_l3_S5/TP_XML/BibliothequeMusicale/src/BibliothequeMusicale/obj/Debug/net9.0/BibliothequeMusicale.AssemblyInfo.cs
+/home/diallo/Documents/TPs_l3_S5/TP_XML/BibliothequeMusicale/src/BibliothequeMusicale/obj/Debug/net9.0/BibliothequeMusicale.csproj.CoreCompileInputs.cache
+/home/diallo/Documents/TPs_l3_S5/TP_XML/BibliothequeMusicale/src/BibliothequeMusicale/obj/Debug/net9.0/BibliothequeMusicale.sourcelink.json
+/home/diallo/Documents/TPs_l3_S5/TP_XML/BibliothequeMusicale/src/BibliothequeMusicale/obj/Debug/net9.0/BibliothequeMusicale.dll
+/home/diallo/Documents/TPs_l3_S5/TP_XML/BibliothequeMusicale/src/BibliothequeMusicale/obj/Debug/net9.0/refint/BibliothequeMusicale.dll
+/home/diallo/Documents/TPs_l3_S5/TP_XML/BibliothequeMusicale/src/BibliothequeMusicale/obj/Debug/net9.0/BibliothequeMusicale.pdb
+/home/diallo/Documents/TPs_l3_S5/TP_XML/BibliothequeMusicale/src/BibliothequeMusicale/obj/Debug/net9.0/BibliothequeMusicale.genruntimeconfig.cache
+/home/diallo/Documents/TPs_l3_S5/TP_XML/BibliothequeMusicale/src/BibliothequeMusicale/obj/Debug/net9.0/ref/BibliothequeMusicale.dll
